@@ -443,6 +443,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+}.static{
+  position: static !important;
 }.absolute{
   position: absolute !important;
 }.relative{
@@ -503,6 +505,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 64rem !important;
 }.max-w-2xl{
   max-width: 42rem !important;
+}.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }.flex-wrap{
   flex-wrap: wrap !important;
 }.items-center{
